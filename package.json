@@ -6,7 +6,8 @@
     "dev": "concurrently \"nodemon api/server.js\" \"nodemon api/workers/imageWorker.js\"",
     "server": "nodemon api/server.js",
     "worker": "nodemon api/workers/imageWorker.js",
-    "start": "node api/server.js"
+    "start": "node api/server.js",
+    "startwork":"node api/workers/imageWorker.js"
   },
   "keywords": [],
   "author": "Kunal Singh",
